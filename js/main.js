@@ -73,4 +73,5 @@ Attribute selector
     // var posts = JSON.parse(data)
     // console.log(posts)
   })
+  AOS.init()
 })
