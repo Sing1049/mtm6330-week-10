@@ -28,7 +28,7 @@ gulp.task('scripts', function () {
     'node_modules/jquery/dist/jquery.js',
     'node_modules/bootstrap/dist/js/bootstrap.js',
     'js/*.js'
-  ]) // setting the source files for gulp to work with
+  ])
     .pipe(concat('main.js')) // running concat on all the files directly inside js folder with extension .js. The new file will be names main.js
     .pipe(gulp.dest('js/dev')) // save the concatenated file into dev folder
     .pipe(rename('main.min.js')) // pipe the contatenated file and rename it to main.min.js
